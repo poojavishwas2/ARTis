@@ -84,7 +84,7 @@ function clickHandler(e){
     }
 }
 
-// Mobirise initialization
+//   ARTis initialization
 var isBuilder = $('html').hasClass('is-builder');
 if (isBuilder) {
     $(document).on('add.cards', function(event) {

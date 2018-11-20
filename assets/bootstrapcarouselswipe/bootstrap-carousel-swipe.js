@@ -1,5 +1,5 @@
 /* source: https://github.com/avinoamr/bootstrap-carousel-swipe */
-/* changes from Mobirise team */
+/* changes from   ARTis team */
 +function ($) {
     'use strict';
 
