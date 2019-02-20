@@ -1823,7 +1823,7 @@ body {
   margin-bottom: 3px;
 }
 .cid-r9MGmXBpSA .carousel-caption {
-  top: 50%;
+  top: 55%;
   right: 0;
   bottom: auto;
   left: 0;
@@ -2010,8 +2010,8 @@ body {
   color: #77057b;
 }
 .cid-r9MIoHqcLq {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #77057b;
 }
 .cid-r9MIoHqcLq .mbr-section-subtitle {
@@ -2024,7 +2024,7 @@ body {
   text-align: left;
 }
 .cid-r9MZNJssQw {
-  padding-top: 60px;
+  padding-top: 20px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
@@ -2033,8 +2033,8 @@ body {
   text-align: left;
 }
 .cid-r9N4gwo25P {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #ffffff;
 }
 .cid-r9N4gwo25P .mbr-section-subtitle {
@@ -4884,7 +4884,7 @@ body {
   color: #77057b !important;
 }
 .cid-r9N60WfNRJ {
-  background-image: url("../../../assets/images/unnamed.jpg");
+  background-image: url("../../../assets/nImgs/prodBanner.jpg");
 }
 .cid-r9Na3MEOdx {
   padding-top: 30px;
@@ -5115,7 +5115,7 @@ body {
   background-color: #ffffff;
 }
 .cid-r9N9tlHIb5 {
-  padding-top: 90px;
+  padding-top: 45px;
   padding-bottom: 15px;
   background-color: #77057b;
 }
@@ -7286,4 +7286,7 @@ body {
   opacity: 0.7;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
+}
+.pBg{
+  background-image: url("../../nImgs/pBg.jpg")
 }
