@@ -4884,7 +4884,7 @@ body {
   color: #77057b !important;
 }
 .cid-r9N60WfNRJ {
-  background-image: url("../../../assets/nImgs/bMain.png");
+  background-image: url("../../../assets/nImgs/productsBannner.jpg");
 }
 .cid-r9Na3MEOdx {
   padding-top: 30px;
@@ -4906,7 +4906,7 @@ body {
 }
 .cid-r9N7ImwH5R {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background-color: #ffffff;
 }
 .cid-r9N7ImwH5R .carousel-control {
@@ -7289,4 +7289,34 @@ body {
 }
 .pBg{
   background-image: url("../../nImgs/pBg.jpg")
+}
+.homeHover{
+  color  :grey;
+}
+.homeHover:hover{
+  cursor: pointer;
+  color: #411b4c !important ;
+}
+
+.hIHover:hover{
+  margin: 4px;
+  border: #c77bc2 5px solid;
+  border-radius: 50%;
+}
+
+
+.navLinkC{
+background: white;
+width: 250px;
+color: #411b4c;
+border: 0;
+text-align: left;
+padding-left: 5px;
+padding-top : 15px;
+padding-bottom : 15px;
+cursor: pointer;
+}
+.navLinkC:hover{
+  color: #c77bc2;
+
 }
