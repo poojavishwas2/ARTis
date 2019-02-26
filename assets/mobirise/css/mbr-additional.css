@@ -7320,3 +7320,15 @@ cursor: pointer;
   color: #c77bc2;
 
 }
+.frst {
+  height: 200px;
+  position: relative;
+}
+
+.vc {
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
