@@ -1,0 +1,34 @@
+<?php
+
+
+
+// specify your email here
+
+$to = 'contact@artisivf.com';
+
+
+
+	// Assigning data from $_POST array to variables
+    if (isset($_POST['name'])) { $name = $_POST['name']; }
+    if (isset($_POST['email'])) { $from = $_POST['email']; }
+    if (isset($_POST['phone'])) { $from = $_POST['phone']; }
+    if (isset($_POST['message'])) { $message = $_POST['message']; }
+	
+	// Construct subject of the email
+	$subject = 'Message from ARTis ' . $name;
+
+	// Construct email body
+	$body_message .= 'Name: ' . $name . "\r\n";
+	$body_message .= 'Email: ' . $from . "\r\n";
+	$body_message .= 'Phone: ' . $company . "\r\n";
+	$body_message .= 'Subject: ' . "Contact from ARTis IVF" . "\r\n";
+	$body_message .= 'Message: ' . $message . "\r\n";
+
+	// Construct headers of the message
+	$headers = 'From: ' . $from . "\r\n";
+	$headers .= 'Reply-To: ' . $from . "\r\n";
+
+
+	echo "sdfsdf";
+
+    ?>

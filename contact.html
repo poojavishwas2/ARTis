@@ -193,7 +193,8 @@
                         <div class="col-12 col-md-10 align-left text-white">
 
                             <div data-form-type="formoid" class="col-12 col-md-4" action="contact.php">
-
+                                <div class="thanks" id="contact_message" style="display :none;">
+                                </div>
                                 <h2 class="mbr-fonts-style text-center mb-4 text-white  display-1"
                                     style="font-size : 2rem;font-weight : bold; line-height: 40px;">
                                     Contact Us
@@ -206,60 +207,73 @@
                                 </div>
 
 
-                                <form class="block mbr-form" action="" method="post" data-form-title=""><input
-                                        type="hidden" name="email" data-form-email="true">
-                                    <div class="row">
-                                        <div class="col-md-12 pb-4 multi-horizontal" data-for="name">
-                                            <input type="text" class="form-control input" name="name"
-                                                data-form-field="Name" placeholder="Your Name" required=""
-                                                id="name-modalC">
-                                        </div>
-                                        <div class="col-md-12 pb-4 multi-horizontal" data-for="phone">
-                                            <input type="text" class="form-control input" name="phone"
-                                                data-form-field="Phone" placeholder="Phone" required=""
-                                                id="phone-modalC">
-                                        </div>
-                                        <div class="col-md-12 pb-4" data-for="email">
-                                            <input type="text" class="form-control input" name="email"
-                                                data-form-field="Email" placeholder="Email" required=""
-                                                id="email-modalC">
-                                        </div>
-                                        <div class="col-md-12 pb-4" data-for="message">
-                                            <textarea class="form-control input" name="message" rows="3"
-                                                data-form-field="Message" placeholder="Message" id="message-modalC"
-                                                style="resize:none;"></textarea>
-                                        </div>
-                                        <div class=" col-md-12" style="margin-top: 10px; ">
-
-
-                                            <div id="submit_btn" class="text-center display-4 text-white"
-                                                style="background : #411b4c; height : 40px;border-radius :20px;margin: auto; width: 50%;padding-top: 10px; ">
-                                                Send Message
+                                <div class="contact-form">
+                                    <!--======= FORM  =========-->
+                                    <form role="form" id="contact_form" class="contact-form" method="post"
+                                        onSubmit="return false">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <ul class="row">
+                                                    <li class="col-sm-12">
+                                                        <label>NAME
+                                                            <input type="text" class="form-control" name="name"
+                                                                id="name" placeholder="">
+                                                        </label>
+                                                    </li>
+                                                    <li class="col-sm-12">
+                                                        <label>EMAIL
+                                                            <input type="text" class="form-control" name="email"
+                                                                id="email" placeholder="">
+                                                        </label>
+                                                    </li>
+                                                    <li class="col-sm-12">
+                                                        <label>PHONE
+                                                            <input type="text" class="form-control" name="phone"
+                                                                id="phone" placeholder="">
+                                                        </label>
+                                                    </li>
+                                                </ul>
                                             </div>
+                                            <div class="col-md-6">
+                                                <ul class="row">
 
-
-
+                                                    <li class="col-sm-12">
+                                                        <label>MESSAGE
+                                                            <textarea class="form-control" name="message" id="message"
+                                                                rows="5" placeholder=""></textarea>
+                                                        </label>
+                                                    </li>
+                                                    <li class="col-sm-12 no-margin">
+                                                        <button type="submit" value="submit" class="btn" id="btn_submit"
+                                                            onClick="proceed();">SEND NOW</button>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                    </div>
-                                </form>
+                                    </form>
+                                </div>
                             </div>
 
-
-
-
-
-
-
-
                         </div>
+
                     </div>
+
+
+
+
+
+
+
+
                 </div>
-
-
-
-
-
             </div>
+        </div>
+
+
+
+
+
+        </div>
         </div>
         </div>
     </section>
@@ -447,7 +461,7 @@
     <script src="assets/viewportchecker/jquery.viewportchecker.js"></script>
     <script src="assets/smoothscroll/smooth-scroll.js"></script>
     <script src="assets/theme/js/script.js"></script>
-
+    <script src="request.js"></script>
 
     <input name="animation" type="hidden">
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
