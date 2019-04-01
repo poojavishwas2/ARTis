@@ -29,6 +29,17 @@ $to = 'contact@artisivf.com';
 	$headers .= 'Reply-To: ' . $from . "\r\n";
 
 
-	echo "sdfsdf";
+	$mail_sent = mail($to, $subject, $body_message, $headers);
 
-    ?>
+	if ($mail_sent == true){ ?>
+<script language="javascript" type="text/javascript">
+		window.alert("Sent Successfuly.");
+		</script>
+<?php } else { ?>
+<script language="javascript" type="text/javascript">
+                    window.alert("Error! Please Try Again Later.");
+                </script>
+<?php
+	} // End else
+    
+?>

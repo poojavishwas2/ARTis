@@ -101,20 +101,7 @@
 
 
 
-                            <!-- 
-                            <a href="medical-director-clinician.html"
-                                class="text-black text-left display-4 dropdown-item">Medical
-                                Director/Clinician </a>
 
-                            <a href="embryologist.html"
-                                class="text-black text-left display-4 dropdown-item">Embryologist</a>
-
-                            <a href="fertility-nurse-specialist.html"
-                                class="text-black display-4 dropdown-item">Fertility Nurse Specialist</a>
-
-                            <a href="ivf-patient.html" class="text-black display-4 dropdown-item">IVF Patient</a>
-
-                            <a href="centre-manager.html" class="text-black display-4 dropdown-item">Centre Manager</a> -->
 
 
 
@@ -184,7 +171,7 @@
 
 
 
-    <section class="  cid-r9MGmXBpSA">
+    <!-- <section class="  cid-r9MGmXBpSA">
         <div class="full-screen">
             <div class=" slider-fullscreen-image active" style="background-image: url(assets/nImgs/reqBanner.jpg);">
 
@@ -208,7 +195,6 @@
 
 
                                 <div class="contact-form">
-                                    <!--======= FORM  =========-->
                                     <form role="form" id="contact_form" class="contact-form" method="post"
                                         onSubmit="return false">
                                         <div class="row">
@@ -218,6 +204,12 @@
                                                         <label>NAME
                                                             <input type="text" class="form-control" name="name"
                                                                 id="name" placeholder="">
+
+                                                                <input type="text" class="form-control input" name="name"
+                                                                data-form-field="Name" placeholder="Your Name" required=""
+                                                                id="name-modalC">
+
+                                                                
                                                         </label>
                                                     </li>
                                                     <li class="col-sm-12">
@@ -243,10 +235,16 @@
                                                                 rows="5" placeholder=""></textarea>
                                                         </label>
                                                     </li>
-                                                    <li class="col-sm-12 no-margin">
+                                                    <div class=" col-md-12" style="margin-top: 10px; ">
+                                                        <div id="submit_btn" class="text-center display-4 text-white"
+                                                            style="background : #411b4c; height : 40px;border-radius :20px;margin: auto; width: 50%;padding-top: 10px; ">
+                                                            Send Message
+                                                        </div>
+
+
                                                         <button type="submit" value="submit" class="btn" id="btn_submit"
                                                             onClick="proceed();">SEND NOW</button>
-                                                    </li>
+                                                    </div>
                                                 </ul>
                                             </div>
                                         </div>
@@ -276,8 +274,73 @@
         </div>
         </div>
         </div>
-    </section>
+    </section> -->
 
+    <section class="  cid-r9MGmXBpSA">
+        <div class="full-screen">
+            <div class=" slider-fullscreen-image active" style="background-image: url(assets/nImgs/reqBanner.jpg);">
+
+                <div class="container container-slide">
+                    <div class="carousel-caption justify-content-center">
+                        <div class="col-12 col-md-10 align-left text-white">
+                            <div data-form-type="formoid" class="col-12 col-md-5" action="contact.php">
+                                <h2 class="mbr-fonts-style text-center mb-4 text-white  display-1"
+                                    style="font-size : 2rem;font-weight : bold; line-height: 40px;">
+                                    Contact Us
+                                </h2>
+                                <div class="thanks" id="thanksC" style="display :none;">
+                                </div>
+
+                                <div class="thanks" id="errC"
+                                    style=" background : #411b4c;display :none;font-size: 16px;">
+                                </div>
+
+                                <form role="form" id="contact_form" class="block mbr-form" method="post"
+                                    onSubmit="return false">
+                                    <input type="hidden" name="email" data-form-email="true">
+                                    <div class="row">
+                                        <div class="col-md-12 pb-4 multi-horizontal" data-for="name">
+                                            <input type="text" class="form-control input" name="name"
+                                                data-form-field="Name" placeholder="Your Name" required=""
+                                                id="name">
+                                        </div>
+                                        <div class="col-md-12 pb-4 multi-horizontal" data-for="phone">
+                                            <input type="text" class="form-control input" name="phone"
+                                                data-form-field="Phone" placeholder="Phone" required=""
+                                                id="phone">
+                                        </div>
+                                        <div class="col-md-12 pb-4" data-for="email">
+                                            <input type="text" class="form-control input" name="email"
+                                                data-form-field="Email" placeholder="Email" required=""
+                                                id="email">
+                                        </div>
+                                        <div class="col-md-12 pb-4" data-for="message">
+                                            <textarea class="form-control input" name="message" rows="3"
+                                                data-form-field="Message" placeholder="Message" id="message"
+                                                style="resize:none;"></textarea>
+                                        </div>
+                                        <div class=" col-md-12" style="margin-top: 10px; ">
+
+
+                                            <div  class="text-center display-4 text-white" type="submit" value="submit"  id="btn_submit"
+                                            onClick="proceed();"
+                                                style="background : #411b4c; height : 40px;border-radius :20px;margin: auto; width: 50%;padding-top: 10px; ">
+                                                Send Message
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
 
     <section style="padding-top : 60px; padding-bottom : 45px; " class="bg-white">
         <div class="container">
@@ -451,7 +514,6 @@
     </section>
 
 
-    <section class="engine"><a href="https://  #/p">site templates free download</a></section>
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/popper/popper.min.js"></script>
     <script src="assets/tether/tether.min.js"></script>
